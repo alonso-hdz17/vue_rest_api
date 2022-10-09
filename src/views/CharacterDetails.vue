@@ -17,7 +17,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <main class="min-h-screen bg-gradient-to-r from-fuchsia-500 to-red-600 py-8 text-white">
+  <main class="min-h-screen bg-gradient-to-r from-blue-700 to-green-500 py-8 text-white">
     <div v-if="currentCharacter" class="flex flex-col items-center justify-center gap-6">
       <img :src="currentCharacter.imageUrl" :alt="currentCharacter.name" />
       <h1 class="text-white-800 text-6xl font-bold">Hi, I'm {{ currentCharacter.name }}</h1>
